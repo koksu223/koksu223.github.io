@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.2/animation_utility.css" /> -->
+    <link rel="icon" type="image/x-icon" href="image/favicon.svg" />
+    <title>RiskAware</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <div id="header" class="fixed-top mx-auto">
+        <div class="mx-auto align-items-center bg-header" style="max-width: 1770px">
+            <nav class="navbar navbar-expand-xl">
+                <div class="container-fluid ps-3">
+                    <div class="logo-container">
+                        <a class="navbar-brand" href="#"><img src="image/logo.svg" width="180" class="img-fluid" /></a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto mb-2 mb-xl-0 gap-xl-4 gap-1">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html#">Strona Główna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html#misja">Misja</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html#dlaczego-my">Dlaczego my?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html#harmonogram">Harmonogram</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html#faq">FAQ</a>
+                            </li>
+                        </ul>
+                        <a href="#link" class="btn-accent green mx-xl-0 mx-auto">
+                            Zobacz demo
+                            <i class="rtmicon rtmicon-arrow-right"></i>
+                            <span class="gradient-container">
+                                <span class="gradient"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Main -->
+    <main>
+        <!-- Section Banner -->
+        <div class="section bg-banner">
+            <div class="container-banner">
+                <div class="row row-cols-xl-2 row-cols-1 align-items-center">
+                    <div class="col col-xl-7 mb-3">
+                        <div class="d-flex flex-column gap-4">
+                            <div class="d-flex flex-column gap-3">
+                                <div class="title scrollanimation animated fadeInUp adr-5">
+                                    <i class="rtmicon rtmicon-check icon-box"> </i>
+                                    <h6>Incydenty na żywo: <span class="incident-number"><span>0</span></span></h6>
+                                </div>
+                                <h1 class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                    <span class="text-accent">Świadomość. <br>Reakcja. <br>Ochrona.</span>
+                                </h1>
+                            </div>
+                            <p class="scrollanimation animated fadeInUp adr-5 adl-3" style="max-width: 500px">
+                               RiskAware.online pomaga organizacjom rozpoznawać phishing, zgłaszać podejrzane wiadomości i mierzyć poziom świadomości pracowników przed i po szkoleniach.
+                            </p>
+                            <a href="#link" class="btn-accent green scrollanimation animated fadeInUp adr-5 adl-4">
+                                Zobacz demo
+                                <i class="rtmicon rtmicon-arrow-right"></i>
+                                <span class="gradient-container">
+                                    <span class="gradient"></span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col col-xl-5 mb-3">
+                        <img src="image/img-27.png" class="img-fluid position-relative header-hero-img" style="z-index: 2;" alt="" />
+                    </div>
+                </div>
+
+                <div class="elipse banner"></div>
+                <div class="elipse banner-2"></div>
+            </div>
+
+        </div>
+        <!-- End Banner -->
+
+        <!-- Section Highligtht -->
+        <div class="section">
+            <div class="r-container">
+                <div class="row row-cols-md-3 row-cols-1 wrapper-highlight">
+                    <div class="col mb-3">
+                        <div class="card-highlight">
+                            <div class="icon-image">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 33 33"
+                                    fill="none">
+                                    <path
+                                        d="M13.8 27.1547C21.1638 27.1547 27.1333 21.1852 27.1333 13.8214C27.1333 6.45757 21.1638 0.488037 13.8 0.488037C6.43621 0.488037 0.466675 6.45757 0.466675 13.8214C0.466675 21.1852 6.43621 27.1547 13.8 27.1547Z"
+                                        fill="#4BE48D" />
+                                    <path
+                                        d="M27.1333 13.8211C27.1328 16.3439 26.4166 18.8147 25.0679 20.9467C23.7192 23.0786 21.7933 24.7842 19.514 25.8653C17.2346 26.9464 14.6953 27.3587 12.191 27.0543C9.68672 26.7499 7.32016 25.7412 5.36621 24.1455C3.41227 22.5498 1.95112 20.4325 1.15246 18.0395C0.353814 15.6465 0.250438 13.076 0.854344 10.6266C1.45825 8.17721 2.74465 5.9494 4.56415 4.20192C6.38365 2.45444 8.66157 1.25901 11.1333 0.754457C13.0704 0.362008 15.0705 0.40459 16.9891 0.879128C18.9078 1.35367 20.6971 2.24832 22.2279 3.49849C23.7588 4.74867 24.9929 6.32316 25.8412 8.1083C26.6895 9.89344 27.1308 11.8447 27.1333 13.8211V13.8211Z"
+                                        fill="#4BE48D" />
+                                    <path
+                                        d="M26.0134 19.1547H17.8L16.4667 15.1547L13.8 12.4881V8.48807L11.1334 7.15474V0.754737C13.5246 0.271642 16.0025 0.453315 18.2977 1.28C20.5929 2.10669 22.6176 3.54676 24.1516 5.44365C25.6856 7.34054 26.6702 9.62167 26.9985 12.039C27.3267 14.4564 26.986 16.9175 26.0134 19.1547Z"
+                                        fill="#17C260" />
+                                    <path
+                                        d="M11.1334 20.4881V24.4881L7.90669 25.7814C5.86352 24.7744 4.11258 23.2605 2.82099 21.3842C1.52941 19.508 0.740308 17.332 0.529018 15.0639C0.317728 12.7959 0.691302 10.5116 1.61408 8.42902C2.53685 6.34645 3.97803 4.53518 5.80002 3.16809V9.82142L9.80002 12.4881V17.8214L11.1334 20.4881Z"
+                                        fill="#17C260" />
+                                    <path
+                                        d="M32.4667 16.4881V21.3881C32.4668 23.8438 31.6942 26.2372 30.2584 28.2294C28.8226 30.2216 26.7963 31.7115 24.4667 32.4881C22.1369 31.7117 20.1106 30.2218 18.6747 28.2296C17.2389 26.2374 16.4664 23.8438 16.4667 21.3881V16.4881L20.4667 13.8214H28.4667L32.4667 16.4881Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M23.1333 26.3734L19.524 22.764L21.4093 20.8787L23.1333 22.6027L27.524 18.212L29.4093 20.0974L23.1333 26.3734Z"
+                                        fill="white" />
+                                </svg>
+                            </div>
+                            <h5 class="scrollanimation animated fadeInUp adr-5">
+                                Diagnoza ryzyka
+                            </h5>
+                            <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                Sprawdzamy, jak pracownicy reagują na phishing, fałszywe faktury, podejrzane linki i próby przejęcia kont w środowisku e-commerce.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card-highlight active">
+                            <div class="icon-image">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 32 33"
+                                    fill="none">
+                                    <path
+                                        d="M3.99125 2.93909H1.32458V9.17509L8.82858 12.1778L9.82059 9.70042L3.99125 7.36975V2.93909Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M2.65794 5.60573C4.1307 5.60573 5.32461 4.41183 5.32461 2.93907C5.32461 1.46631 4.1307 0.2724 2.65794 0.2724C1.18518 0.2724 -0.00872803 1.46631 -0.00872803 2.93907C-0.00872803 4.41183 1.18518 5.60573 2.65794 5.60573Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M8.82858 20.3671L1.32458 23.3698V29.6058H3.99125V25.1751L9.82059 22.8445L8.82858 20.3671Z"
+                                        fill="#72F2A9" />
+                                    <path d="M9.32463 14.9391H2.65796V17.6058H9.32463V14.9391Z" fill="#72F2A9" />
+                                    <path
+                                        d="M2.65794 18.939C4.1307 18.939 5.32461 17.7451 5.32461 16.2724C5.32461 14.7996 4.1307 13.6057 2.65794 13.6057C1.18518 13.6057 -0.00872803 14.7996 -0.00872803 16.2724C-0.00872803 17.7451 1.18518 18.939 2.65794 18.939Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M2.65794 32.2724C4.1307 32.2724 5.32461 31.0785 5.32461 29.6058C5.32461 28.133 4.1307 26.9391 2.65794 26.9391C1.18518 26.9391 -0.00872803 28.133 -0.00872803 29.6058C-0.00872803 31.0785 1.18518 32.2724 2.65794 32.2724Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M27.9913 2.93909H30.6579V9.17509L23.1539 12.1778L22.1619 9.70042L27.9913 7.36975V2.93909Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M29.3246 5.60573C30.7974 5.60573 31.9913 4.41183 31.9913 2.93907C31.9913 1.46631 30.7974 0.2724 29.3246 0.2724C27.8519 0.2724 26.658 1.46631 26.658 2.93907C26.658 4.41183 27.8519 5.60573 29.3246 5.60573Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M23.1539 20.3671L30.6579 23.3698V29.6058H27.9913V25.1751L22.1619 22.8445L23.1539 20.3671Z"
+                                        fill="#72F2A9" />
+                                    <path d="M29.3246 14.9391H22.658V17.6058H29.3246V14.9391Z" fill="#72F2A9" />
+                                    <path
+                                        d="M29.3246 18.939C30.7974 18.939 31.9913 17.7451 31.9913 16.2724C31.9913 14.7996 30.7974 13.6057 29.3246 13.6057C27.8519 13.6057 26.658 14.7996 26.658 16.2724C26.658 17.7451 27.8519 18.939 29.3246 18.939Z"
+                                        fill="#72F2A9" />
+                                    <path d="M17.3246 2.93909H14.658V9.60575H17.3246V2.93909Z" fill="#72F2A9" />
+                                    <path
+                                        d="M15.9913 5.60573C17.464 5.60573 18.6579 4.41183 18.6579 2.93907C18.6579 1.46631 17.464 0.2724 15.9913 0.2724C14.5185 0.2724 13.3246 1.46631 13.3246 2.93907C13.3246 4.41183 14.5185 5.60573 15.9913 5.60573Z"
+                                        fill="#72F2A9" />
+                                    <path d="M17.3246 22.9391H14.658V29.6058H17.3246V22.9391Z" fill="#72F2A9" />
+                                    <path
+                                        d="M15.9913 32.2724C17.464 32.2724 18.6579 31.0785 18.6579 29.6058C18.6579 28.133 17.464 26.9391 15.9913 26.9391C14.5185 26.9391 13.3246 28.133 13.3246 29.6058C13.3246 31.0785 14.5185 32.2724 15.9913 32.2724Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M29.3246 32.2724C30.7974 32.2724 31.9913 31.0785 31.9913 29.6058C31.9913 28.133 30.7974 26.9391 29.3246 26.9391C27.8519 26.9391 26.658 28.133 26.658 29.6058C26.658 31.0785 27.8519 32.2724 29.3246 32.2724Z"
+                                        fill="#72F2A9" />
+                                    <path d="M25.3246 6.93909H6.65796V25.6058H25.3246V6.93909Z" fill="#4BE48D" />
+                                    <path
+                                        d="M19.9913 18.939H11.9913V13.6057C11.9913 12.5448 12.4127 11.5274 13.1628 10.7773C13.913 10.0271 14.9304 9.60571 15.9913 9.60571C17.0521 9.60571 18.0696 10.0271 18.8197 10.7773C19.5698 11.5274 19.9913 12.5448 19.9913 13.6057V18.939ZM14.6579 16.2724H17.3246V13.6057C17.3246 13.2521 17.1841 12.913 16.9341 12.6629C16.684 12.4129 16.3449 12.2724 15.9913 12.2724C15.6377 12.2724 15.2985 12.4129 15.0485 12.6629C14.7984 12.913 14.6579 13.2521 14.6579 13.6057V16.2724Z"
+                                        fill="#09A04A" />
+                                    <path d="M21.3246 14.9391H10.658V22.9391H21.3246V14.9391Z" fill="#17C260" />
+                                </svg>
+                            </div>
+                            <h5 class="scrollanimation animated fadeInUp adr-5">
+                                Szkolenie i świadomość
+                            </h5>
+                            <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                Uczymy rozpoznawania manipulacji, weryfikacji domen, bezpiecznej reakcji na podejrzane wiadomości oraz zgłaszania incydentów.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card-highlight">
+                            <div class="icon-image">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 33 32"
+                                    fill="none">
+                                    <path
+                                        d="M30.1557 2.66667V26.6667H3.48899C2.78175 26.6667 2.10347 26.3857 1.60338 25.8856C1.10328 25.3855 0.822327 24.7072 0.822327 24V0H8.82233L10.1557 2.66667H30.1557Z"
+                                        fill="#17C260" />
+                                    <path
+                                        d="M32.8223 8V24C32.8202 24.7066 32.5386 25.3836 32.039 25.8833C31.5393 26.3829 30.8623 26.6646 30.1557 26.6667H3.48901C4.19561 26.6646 4.87266 26.3829 5.3723 25.8833C5.87194 25.3836 6.15357 24.7066 6.15568 24V8H32.8223Z"
+                                        fill="#4BE48D" />
+                                    <path
+                                        d="M27.489 16V20.9C27.4891 23.3557 26.7165 25.7492 25.2807 27.7414C23.8449 29.7335 21.8187 31.2235 19.489 32C17.1593 31.2236 15.1329 29.7338 13.6971 27.7415C12.2612 25.7493 11.4887 23.3558 11.489 20.9V16L15.489 13.3334H23.489L27.489 16Z"
+                                        fill="#72F2A9" />
+                                    <path
+                                        d="M18.1556 25.8853L14.5463 22.276L16.4316 20.3907L18.1556 22.1147L22.5463 17.724L24.4316 19.6093L18.1556 25.8853Z"
+                                        fill="white" />
+                                    <path d="M8.82233 0L10.1557 2.66667H15.489L14.1557 0H8.82233Z" fill="#72F2A9" />
+                                </svg>
+                            </div>
+                            <h5 class="scrollanimation animated fadeInUp adr-5">
+                                Zgłaszanie incydentów
+                            </h5>
+                            <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                Wdrażamy prosty kanał zgłoszeń, rejestr incydentów i dashboard KPI, aby organizacja mogła mierzyć postęp i szybciej reagować.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Higlight -->
+
+        <!-- Section About -->
+        <div class="section" id="misja">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-5">
+                    <div class="card-title middle">
+                        <div class="title text scrollanimation animated fadeInUp adr-5">
+                            <h6>Nasza <span class="text-accent">Misja</span></h6>
+                        </div>
+                        <h3 class="scrollanimation animated fadeInUp adr-5 adl-1">
+                            Budujemy odporność organizacji <br>na phishing i wyłudzanie informacji
+                        </h3>
+                        <p class="scrollanimation animated fadeInUp adr-5 adl-2">
+                            RiskAware.online pomaga organizacjom e-commerce sprawdzić poziom świadomości pracowników, wdrożyć prosty system zgłaszania incydentów i mierzyć realną zmianę zachowań po szkoleniach.
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <div class="row row-cols-xl-2 row-cols-1">
+                            <div class="col mb-3 ps-xl-0">
+                                <div class="card-about">
+                                    <div class="text">
+                                        <h4 class="scrollanimation animated fadeInUp adr-5">
+                                            Diagnoza przed wdrożeniem
+                                        </h4>
+                                        <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                            Badamy, jak pracownicy reagują na podejrzane wiadomości, fałszywe faktury, linki do paneli online i próby przejęcia kont przed rozpoczęciem szkoleń.
+                                        </p>
+                                    </div>
+                                    <img src="image/img-3.png" class="img-fluid" alt="" />
+                                    <div class="elipse about"></div>
+                                </div>
+                            </div>
+                            <div class="col mb-3 pe-xl-0">
+                                <div class="card-about">
+                                    <div class="text">
+                                        <h4 class="scrollanimation animated fadeInUp adr-5">
+                                            Szkolenia i procedury
+                                        </h4>
+                                        <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                            Uczymy rozpoznawania phishingu, weryfikacji domen, bezpiecznej reakcji na presję czasu oraz zgłaszania incydentów zgodnie z jedną prostą procedurą.
+                                        </p>
+                                    </div>
+                                    <img src="image/img-4.png" class="img-fluid" alt="" />
+                                    <div class="elipse about"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-xl-2 row-cols-1 card-about-row">
+                            <div class="col mb-3">
+                                <div class="text">
+                                    <div class="top">
+                                        <h4 class="scrollanimation animated fadeInUp adr-5">
+                                            Monitoring zgłoszeń i KPI
+                                        </h4>
+                                        <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                            RiskAware.online zbiera zgłoszenia w jednym miejscu, klasyfikuje poziom ryzyka i pokazuje dane w dashboardzie. Dzięki temu organizacja widzi, czy liczba kliknięć spada, zgłoszeń przybywa, a czas reakcji realnie się skraca.
+                                        </p>
+                                    </div>
+                                    <a href="about.html"
+                                        class="btn-accent green scrollanimation animated fadeInUp adr-5 adl-2">
+                                        Zobacz demo
+                                        <i class="rtmicon rtmicon-arrow-right"></i>
+                                        <span class="gradient-container">
+                                            <span class="gradient"></span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col mb-3">
+                                <img src="image/img-24.png" class="img-fluid" alt="" />
+                            </div>
+                            <div class="elipse about"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About -->
+
+        <!-- Section Our Service -->
+        <!-- <div class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-5">
+                    <div class="card-title">
+                        <div class="title text scrollanimation animated fadeInUp adr-5">
+                            <h6>Our <span class="text-accent">Service</span></h6>
+                        </div>
+                        <h3 class="scrollanimation animated fadeInUp adr-5 adl-1">
+                            Comprehensive <br />
+                            Cybersecurity Service
+                        </h3>
+                        <p class="scrollanimation animated fadeInUp adr-5 adl-2">
+                            Scalable, reliable, and intelligent cybersecurity designed to
+                            protect organizations of every size across industries.
+                        </p>
+                    </div>
+                    <div class="d-flex flex-column gap-2">
+                        <div class="row row-cols-xl-2 row-cols-1">
+                            <div class="col col-xl-7 mb-3">
+                                <div class="card-service">
+                                    <div class="icon-image">
+                                        <img src="image/icon-4.png" class="img-fluid" alt="" />
+                                    </div>
+                                    <h4>Network Security</h4>
+                                    <p>
+                                        Fortify your infrastructure with firewalls, intrusion
+                                        detection, and secure access controls.
+                                    </p>
+                                    <hr />
+                                    <a href="services.html"
+                                        class="btn btn-accent primary scrollanimation animated fadeInUp adr-5">
+                                        <span>Learn More</span>
+                                        <i class="rtmicon rtmicon-arrow-right"></i>
+                                        <span class="gradient-container">
+                                            <span class="gradient"></span>
+                                        </span>
+                                    </a>
+                                    <div class="elipse service"></div>
+                                </div>
+                            </div>
+                            <div class="col col-xl-5 mb-3">
+                                <div class="card-service">
+                                    <div class="icon-image">
+                                        <img src="image/icon-5.png" class="img-fluid" alt="" />
+                                    </div>
+                                    <h4>Cloud Security</h4>
+                                    <p>
+                                        Keep your data safe in the cloud with advanced encryption
+                                        and compliance-ready solutions.
+                                    </p>
+                                    <hr />
+                                    <a href="services.html"
+                                        class="btn btn-accent primary scrollanimation animated fadeInUp adr-5">
+                                        <span>Learn More</span>
+                                        <i class="rtmicon rtmicon-arrow-right"></i>
+                                        <span class="gradient-container">
+                                            <span class="gradient"></span>
+                                        </span>
+                                    </a>
+                                    <div class="elipse service"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-xl-2 row-cols-1">
+                            <div class="col col-xl-5 mb-3">
+                                <div class="card-service">
+                                    <div class="icon-image">
+                                        <img src="image/icon-6.png" class="img-fluid" alt="" />
+                                    </div>
+                                    <h4>Endpoint Protection</h4>
+                                    <p>
+                                        Safeguard every device in your organization from malware
+                                        and ransomware.
+                                    </p>
+                                    <hr />
+                                    <a href="services.html"
+                                        class="btn btn-accent primary scrollanimation animated fadeInUp adr-5">
+                                        <span>Learn More</span>
+                                        <i class="rtmicon rtmicon-arrow-right"></i>
+                                        <span class="gradient-container">
+                                            <span class="gradient"></span>
+                                        </span>
+                                    </a>
+                                    <div class="elipse service"></div>
+                                </div>
+                            </div>
+                            <div class="col col-xl-7 mb-3">
+                                <div class="card-service">
+                                    <div class="icon-image">
+                                        <img src="image/icon-7.png" class="img-fluid" alt="" />
+                                    </div>
+                                    <h4>Threat Monitoring & Response</h4>
+                                    <p>
+                                        24/7 monitoring with rapid incident response to stop
+                                        threats before they spread.
+                                    </p>
+                                    <hr />
+                                    <a href="services.html"
+                                        class="btn btn-accent primary scrollanimation animated fadeInUp adr-5">
+                                        <span>Learn More</span>
+                                        <i class="rtmicon rtmicon-arrow-right"></i>
+                                        <span class="gradient-container">
+                                            <span class="gradient"></span>
+                                        </span>
+                                    </a>
+                                    <div class="elipse service"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- End Our Service -->
+
+        <!-- Section Text -->
+        <div class="section">
+            <div class="r-container">
+                <div class="d-flex flex-column align-items-center gap-5">
+                    <h3 class="text-center" style="max-width: 1000px">
+                        Wystarczy jeden mail i jeden klik. 
+                        <span class="text-accent"><br>W 2025 roku CERT Polska odnotował ponad</span>
+                        <span class="customer-container">
+                            <div class="customer-item">
+                                <img src="image/dummy-img-600x700.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="customer-item">
+                                <img src="image/dummy-img-1920x1280.jpg" class="img-fluid" alt="" />
+                            </div>
+                            <div class="customer-custom">
+                                <p class="small-text">658K+</p>
+                            </div>
+                        </span>zgłoszeń cyberzagrożeń <br>w
+                        <span class="">
+                            <img src="image/icon-8.png" class="img-fluid icon-image text" alt=""
+                                style="width: 50px; padding: 5px" />
+                        </span>
+                        Polsce.
+                    </h3>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center" style="max-width: 800px">
+                        <div class="title scrollanimation animated fadeInUp adr-5">
+                            <i class="rtmicon rtmicon-check icon-box"> </i>
+                            <h6>Rozpoznaj phishing</h6>
+                        </div>
+                        <div class="title scrollanimation animated fadeInUp adr-5 adl-1">
+                            <i class="rtmicon rtmicon-check icon-box"> </i>
+                            <h6>Zgłoś incydent</h6>
+                        </div>
+                        <div class="title scrollanimation animated fadeInUp adr-5 adl-2">
+                            <i class="rtmicon rtmicon-check icon-box"> </i>
+                            <h6>Nie klikaj</h6>
+                        </div>
+                        <div class="title scrollanimation animated fadeInUp adr-5 adl-3">
+                            <i class="rtmicon rtmicon-check icon-box"> </i>
+                            <h6>Reaguj szybciej</h6>
+                        </div>
+                        <div class="title scrollanimation animated fadeInUp adr-5 adl-4">
+                            <i class="rtmicon rtmicon-check icon-box"> </i>
+                            <h6>Mierz efekty</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Text -->
+
+        <!-- Section Why Choose Us -->
+        <div class="section" id="dlaczego-my">
+            <div class="r-container">
+                <div class="row row-cols-xl-2 row-cols-1">
+                    <div class="col mb-3">
+                        <div class="d-flex align-items-center justify-content-center" style="align-items: center">
+                            <img src="image/img-25.png" class="img-fluid" alt="" />
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="d-flex flex-column gap-4 h-100">
+                            <div class="card-title">
+                                <div class="title text scrollanimation animated fadeInUp adr-5">
+                                    <h6 class="text-accent">Dlaczego RiskAware</h6>
+                                </div>
+                                <h3 class="scrollanimation animated fadeInUp adr-5 adl-1">
+                                    Cyberbezpieczeństwo  <br />
+                                    zaczyna się od zachowania pracownika
+                                </h3>
+                                <p class="scrollanimation animated fadeInUp adr-5 adl-2">
+                                    RiskAware.online łączy badanie świadomości, szkolenia, symulacje phishingowe i prosty system zgłaszania incydentów. Dzięki temu organizacja nie tylko edukuje pracowników, ale realnie mierzy, czy potrafią rozpoznać zagrożenie i zareagować na czas.
+                                </p>
+                            </div>
+                            <div class="accordion d-flex flex-column gap-4" id="chooseAccordion1">
+                                <div class="accordion-item">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#choose1" aria-expanded="true" aria-controls="choose1">
+                                            Diagnoza zamiast domysłów
+                                        </button>
+                                    </div>
+                                    <div id="choose1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#chooseAccordion1">
+                                        <div class="accordion-body">
+                                            Sprawdzamy rzeczywiste reakcje pracowników na phishing, fałszywe faktury, podejrzane linki i próby przejęcia kont. Wyniki pokazują, gdzie organizacja jest najbardziej podatna na ryzyko.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#choose2" aria-expanded="false"
+                                            aria-controls="choose2">
+                                            Jeden prosty proces zgłoszeń
+                                        </button>
+                                    </h2>
+                                    <div id="choose2" class="accordion-collapse collapse"
+                                        data-bs-parent="#chooseAccordion1">
+                                        <div class="accordion-body">
+                                            RiskAware.online porządkuje zgłaszanie incydentów poprzez jeden kanał kontaktu, formularz, rejestr zgłoszeń i klasyfikację poziomu ryzyka. Pracownik wie, co zrobić, zanim błąd stanie się incydentem.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Why Choose Us -->
+
+        <!-- Section Timeline -->
+        <div class="section" id="harmonogram">
+            <div class="mx-auto align-items-center position-relative" style="max-width: 1770px; padding-bottom: 6rem;">
+                <div class="d-flex flex-column gap-5">
+                    <div class="card-title middle">
+                        <div class="title text scrollanimation animated fadeInUp adr-5">
+                            <h6>Harmonogram<span class="text-accent"> projektu</span></h6>
+                        </div>
+                        <h3 class="scrollanimation animated fadeInUp adr-5 adl-1">
+                            Od diagnozy do <br />mierzalnej zmiany zachowań 
+                        </h3>
+                        <p class="scrollanimation animated fadeInUp adr-5 adl-2">
+                            Od badania początkowego, przez szkolenia i wdrożenie MVP, aż po pomiar efektów w organizacji e-commerce.
+                        </p>
+                    </div>
+                    <div class="image-container">
+                        <img src="image/timeline.png" class="img-fluid" alt="" />
+
+                        <!-- Hotspots -->
+                        <div class="hotspot" style="top: 77%; left: 26.5%">
+                            <h1 class="top-tooltip">03.2026</h1>
+                            <div class="tooltip">
+                                <h5>Diagnoza</h5>
+                                <p>
+                                    Koncepcja projektu, badanie 48 pracowników <br />i symulacja phishingowa przed szkoleniami. 
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="hotspot active" style="top: 52%; left: 49.5%">
+                            <h1 class="top-tooltip">05.2026</h1>
+                            <div class="tooltip">
+                                <h5>Wdrożenie</h5>
+                                <p>
+                                    Szkolenia, kampania edukacyjna i uruchomienie MVP <br>do zgłaszania incydentów
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="hotspot" style="top: 38%; left: 72.5%">
+                            <h1 class="top-tooltip">06.2026</h1>
+                            <div class="tooltip">
+                                <h5>Raport</h5>
+                                <p>Analiza wyników, porównanie KPI <br>i rekomendacje dalszych działań.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elipse timeline"></div>
+            </div>
+        </div>
+        <!-- End Timeline -->
+
+        <!-- Section Marquee -->
+        <div class="section marquee">
+            <div class="marquee-container reverse mb-3">
+                <div class="marquee-content">
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>Świadomość ryzyka</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>Phishing</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>Fałszywe linki</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>Przejęcia kont</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="marquee-container">
+                <div class="marquee-content">
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>Zgłaszanie incydentów</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>Szkolenia pracowników</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>Pomiar KPI</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                    <div class="marquee-item accent d-flex align-items-center justify-content-center">
+                        <h3>RiskAware.online</h3>
+                    </div>
+                    <div class="marquee-item d-flex align-items-center justify-content-center">
+                        <h3>.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Marquee -->
+
+        <!-- Section FAQ -->
+        <div class="section" id="faq">
+            <div class="r-container">
+                <div class="d-flex flex-column gap-5">
+                    <div class="card-title">
+                        <div class="title text scrollanimation animated fadeInUp adr-5">
+                            <h6 class="text-accent">FAQ</h6>
+                        </div>
+                        <h3 class="scrollanimation animated fadeInUp adr-5 adl-1">
+                            Najczęściej Zadawane  <br />
+                            Pytania
+                        </h3>
+                        <p class="scrollanimation animated fadeInUp adr-5 adl-2">
+                            Znajdź szybkie odpowiedzi dotyczące projektu, modelu działania, szkoleń, zgłaszania incydentów oraz pomiaru efektów po wdrożeniu.
+                        </p>
+                    </div>
+                    <div class="row row-cols-md-2 row-cols-1">
+                        <div class="col mb-3">
+                            <div class="accordion d-flex flex-column gap-4" id="faqAccordion1">
+                                <div class="accordion-item faq">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button faq" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                            Czym jest RiskAware.online?
+                                        </button>
+                                    </div>
+                                    <div id="faq1" class="accordion-collapse collapse show"
+                                        data-bs-parent="#faqAccordion1">
+                                        <div class="accordion-body faq">
+                                            RiskAware.online to model zwiększania świadomości cyberzagrożeń w organizacji. Łączy szkolenia, symulacje phishingowe i system zgłaszania incydentów.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed faq" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false"
+                                            aria-controls="faq2">
+                                            Dla kogo jest projekt?
+                                        </button>
+                                    </h2>
+                                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                                        <div class="accordion-body faq">
+                                            Projekt jest skierowany do organizacji działających online, szczególnie z branży e-commerce. Najbardziej przyda się firmom, których pracownicy codziennie obsługują wiadomości, linki, płatności i panele online.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed faq" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false"
+                                            aria-controls="faq3">
+                                            Jaki problem rozwiązuje?
+                                        </button>
+                                    </h2>
+                                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion1">
+                                        <div class="accordion-body faq">
+                                            RiskAware.online pomaga ograniczyć ryzyko phishingu, fałszywych faktur, podejrzanych linków i prób przejęcia kont. Uczy pracowników, jak rozpoznać zagrożenie i szybko je zgłosić.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="accordion d-flex flex-column gap-4" id="faqAccordion2">
+                                <div class="accordion-item faq">
+                                    <div class="accordion-header">
+                                        <button class="accordion-button collapsed faq" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false"
+                                            aria-controls="faq6">
+                                            Jak działa model RiskAware.online?
+                                        </button>
+                                    </div>
+                                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                        <div class="accordion-body faq">
+                                            Model zaczyna się od diagnozy poziomu świadomości pracowników, a następnie obejmuje szkolenia, kampanię informacyjną i wdrożenie kanału zgłoszeń. Na końcu wyniki są mierzone i porównywane z badaniem początkowym.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed faq" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false"
+                                            aria-controls="faq7">
+                                            Czy RiskAware.online zastępuje systemy cyberbezpieczeństwa?
+                                        </button>
+                                    </h2>
+                                    <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqAccordion2">
+                                        <div class="accordion-body faq">
+                                            Nie, projekt nie zastępuje systemów SOC, SIEM ani technicznych audytów bezpieczeństwa. Skupia się na czynniku ludzkim, czyli decyzjach pracowników i procesie zgłaszania incydentów.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item faq">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button faq" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#faq8" aria-expanded="true" aria-controls="faq8">
+                                            Jak mierzone są efekty projektu?
+                                        </button>
+                                    </h2>
+                                    <div id="faq8" class="accordion-collapse collapse show"
+                                        data-bs-parent="#faqAccordion2">
+                                        <div class="accordion-body faq">
+                                            Efekty mierzone są przez porównanie wyników przed i po wdrożeniu. Analizowane są kliknięcia w phishing, liczba zgłoszeń, czas reakcji, wynik testu wiedzy i znajomość procedur.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End FAQ -->
+
+        <!-- Section CTA -->
+        <div class="section">
+            <div class="bg-cta">
+                <h2 class="scrollanimation animated fadeInUp adr-5">
+                    Chroń organizację, zanim<br />
+                     <span class="text-accent">phishing stanie się incydentem</span>
+                </h2>
+                <p class="scrollanimation animated fadeInUp adr-5 adl-1">
+                    Pomagamy sprawdzić świadomość pracowników, wdrożyć prosty kanał zgłaszania i mierzyć realną poprawę reakcji po szkoleniach.
+                </p>
+                <a href="contact_us.html" class="btn btn-accent green scrollanimation animated fadeInUp adr-5">
+                    <span>Zobacz demo</span>
+                    <i class="rtmicon rtmicon-arrow-right"></i>
+                    <span class="gradient-container">
+                        <span class="gradient"></span>
+                    </span>
+                </a>
+                <div class="elipse cta"></div>
+                <div class="elipse cta-2"></div>
+            </div>
+        </div>
+        <!-- End CTA -->
+
+
+    </main>
+
+    <footer>
+        <div class="section pb-4">
+            <div class="bg-footer">
+                <img src="image/logo.svg" class="img-fluid logo-footer scrollanimation animated fadeInUp adr-5"
+                    alt="" />
+                <div class="d-flex flex-wrap gap-3 justify-content-center" style="max-width: 800px">
+                    <div class="title scrollanimation animated fadeInUp adr-5 adl-1">
+                        <i class="rtmicon rtmicon-check icon-box"> </i>
+                        <h6>Rozpoznawanie phishingu</h6>
+                    </div>
+                    <div class="title scrollanimation animated fadeInUp adr-5 adl-2">
+                        <i class="rtmicon rtmicon-check icon-box"> </i>
+                        <h6>Jeden kanał zgłoszeń</h6>
+                    </div>
+                    <div class="title scrollanimation animated fadeInUp adr-5 adl-3">
+                        <i class="rtmicon rtmicon-check icon-box"> </i>
+                        <h6>Mniej błędnych kliknięć</h6>
+                    </div>
+                    <div class="title scrollanimation animated fadeInUp adr-5 adl-4">
+                        <i class="rtmicon rtmicon-check icon-box"> </i>
+                        <h6>Szybsza reakcja</h6>
+                    </div>
+                    <div class="title scrollanimation animated fadeInUp adr-5 adl-5">
+                        <i class="rtmicon rtmicon-check icon-box"> </i>
+                        <h6>Pomiar efektów</h6>
+                    </div>
+                </div>
+                <hr />
+                <div class="d-flex flex-xl-row flex-column align-items-center justify-content-between w-100 scrollanimation animated fadeInUp adr-5 adl-6"
+                    style="max-width: 800px">
+                    <a href="index.html#" class="link">Strona Główna</a>
+                    <a href="index.html#misja" class="link">Misja</a>
+                    <a href="index.html#dlaczego-my" class="link">Dlaczego my?</a>
+                    <a href="index.html#harmonogram" class="link">Harmonogram</a>
+                    <a href="index.html#faq" class="link">FAQ</a>
+                </div>
+                <!-- <div class="social-container scrollanimation animated fadeInUp adr-5 adl-7">
+                    <a href="https://www.facebook.com" class="social-item">
+                        <i class="fa-brands fa-xs fa-facebook-f" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" class="social-item">
+                        <i class="fa-brands fa-xs fa-linkedin-in" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="social-item">
+                        <i class="fa-brands fa-xs fa-instagram" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.youtube.com" class="social-item">
+                        <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </div> -->
+                <p class="accent-color-4 scrollanimation animated fadeInUp adr-5 adl-7">
+                    Copyright © 2026 RiskAware. All Rights Reserved.
+                </p>
+                <div class="elipse footer"></div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/vendor/isotope.pkgd.min.js"></script>
+    <script src="js/video_embedded.js"></script>
+    <script src="js/vendor/fslightbox.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/shishirraven/animate-on-scroll@v1.0/oyethemes_onscroll_animation.js"></script>
+</body>
+
+</html>
